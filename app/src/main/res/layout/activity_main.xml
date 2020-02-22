@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.105" />
 
     <EditText
-        android:id="@+id/mainTextField"
+        android:id="@+id/mainName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/pushmeButton"
+        android:id="@+id/mainGoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Push me"
@@ -38,7 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainTextField"
+        app:layout_constraintTop_toBottomOf="@+id/mainName"
         app:layout_constraintVertical_bias="0.241" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
